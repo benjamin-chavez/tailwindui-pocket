@@ -1,8 +1,8 @@
+import { type Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
-import { type Metadata } from 'next'
 
 const inter = Inter({
   subsets: ['latin'],

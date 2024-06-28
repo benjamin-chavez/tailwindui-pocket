@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { RadioGroup } from '@headlessui/react'
+import { Radio, RadioGroup } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
@@ -239,7 +239,7 @@ export function Pricing() {
               className="grid grid-cols-2"
             >
               {['Monthly', 'Annually'].map((period) => (
-                <RadioGroup.Option
+                <Radio
                   key={period}
                   value={period}
                   className={clsx(
@@ -250,7 +250,7 @@ export function Pricing() {
                   )}
                 >
                   {period}
-                </RadioGroup.Option>
+                </Radio>
               ))}
             </RadioGroup>
             <div

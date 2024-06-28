@@ -1,9 +1,9 @@
+import { type Metadata } from 'next'
 import Link from 'next/link'
 
 import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { SelectField, TextField } from '@/components/Fields'
-import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Sign Up',
